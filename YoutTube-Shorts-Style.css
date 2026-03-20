@@ -1,0 +1,14 @@
+.video-container {
+    width: 100%;
+    max-width: 240px;
+    
+}
+
+.video-container iframe {
+    width: 100%;
+    aspect-ratio: 9 / 16;
+}
+/* Note about this CSS: This is for YouTube Shorts.
+The aspect ratio is 9:16, which is the standard for vertical videos. 
+The width is set to 100% to make it responsive, 
+and the height will adjust automatically based on the aspect ratio. */
